@@ -1,5 +1,9 @@
 .top-nav{
     background-color: transparent!important;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, #1c1c1c, rgba(0, 0, 0, 0));
 }
 .navbar-logo-text{
     font-family: Helvetica;
@@ -9,9 +13,49 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: white;
+    color: #ffffff;
     text-decoration: none!important;
 }
 .navbar-logo-text:hover{
-    color: white;
+    color: #ffffff;
+}
+.sign-in {
+    height: 18px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+     color: #ffffff;
+    text-decoration: none !important;
+    margin-right: 70px;
+}
+.sign-in:hover {
+    color: #ffffff;
+}
+.sign-up{
+    width: 110px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #43b5ff;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+@media only screen and (max-width: 376px) {
+    .sign-in {
+        margin-right: 15px;
+    }
+    .sign-up {
+        width: 90px;
+    }
 }

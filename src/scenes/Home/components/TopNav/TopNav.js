@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, FormControl, Navbar, NavDropdown, Button, Nav, Form } from 'react-bootstrap';
+import { Container, Navbar, Button, Nav, Form } from 'react-bootstrap';
 
 import './topNav.css';
-class TopNav extends React.Component { 
+class TopNav extends React.Component {
     render() {
         return (
             <div>
@@ -12,15 +12,12 @@ class TopNav extends React.Component {
                         <Navbar.Brand>
                             <Link to="/" className="navbar-logo-text">Kokoon.cloud</Link>
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
-                            </Nav>
-                            <Form inline>
-                                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                                <Button variant="outline-success">Search</Button>
-                            </Form>
-                        </Navbar.Collapse>
+                        <Nav className="mr-auto">
+                        </Nav>
+                        <Form inline>
+                            <Link to="/" className="sign-in">Sign in</Link>
+                            <Button className="sign-up">Sing up</Button>
+                        </Form>
                     </Container>
                 </Navbar>
             </div>
