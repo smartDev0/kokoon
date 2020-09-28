@@ -1,10 +1,11 @@
-.background-image{
+.background-image {
     width: 100%;
     height: 490px;
     background-image: url('./../../../../assets/imgs/background.jpg');
     background-size: cover;
 }
-.background-text{
+
+.background-text {
     font-family: Helvetica;
     font-size: 50px;
     font-weight: bold;
@@ -15,7 +16,8 @@
     text-align: center;
     color: #ffffff;
 }
-.background-button{
+
+.background-button {
     /* width: 400px; */
     padding: 0 70px;
     height: 60px;
@@ -29,28 +31,32 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    background-color:#0687ff;
+    background-color: #0687ff;
 }
-.d-v-center{
+
+.d-v-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sub-title{
- font-family: Helvetica;
- font-size: 14px;
- font-weight: normal;
- font-stretch: normal;
- font-style: normal;
- line-height: normal;
- letter-spacing: normal;
- text-align: center;
- color: black;
+
+.sub-title {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
 }
-.content{
+
+.content {
     padding: 100px 0;
 }
-.title{
+
+.title {
     font-family: Helvetica;
     font-size: 50px;
     font-weight: bold;
@@ -62,15 +68,17 @@
     color: black;
     margin-top: 27px;
 }
+
 .divider {
     width: 40px;
     height: 8px;
     background-color: #39dfdb;
     margin: 65px 0;
 }
-.resolution-box{
+
+.resolution-box {
     width: 100%;
-    background-color:#43b5ff;
+    background-color: #43b5ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +86,7 @@
     height: 370px;
     margin: 5px 0;
 }
+
 .trim-box {
     background-color: #39dfdb;
     display: flex;
@@ -99,6 +108,7 @@
     height: 370px;
     margin: 5px 0;
 }
+
 .box-title {
     font-family: Helvetica;
     font-size: 24px;
@@ -111,7 +121,8 @@
     color: black;
     margin: 30px 0;
 }
-.box-text{
+
+.box-text {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: normal;
@@ -122,6 +133,7 @@
     text-align: center;
     color: black;
 }
+
 .example-videos {
     font-family: Helvetica;
     font-size: 26px;
@@ -132,7 +144,8 @@
     letter-spacing: normal;
     color: black;
 }
-.description{
+
+.description {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: normal;
@@ -142,34 +155,42 @@
     letter-spacing: normal;
     color: black;
 }
-.messi-div{
+
+.messi-div {
     width: 100%;
     height: 230px;
     background-image: url('./../../../../assets/imgs/messi.png');
 }
-.custom-row{
+
+.custom-row {
     padding: 0 35px;
 }
-.ironman-img{
+
+.ironman-img {
     width: 100%;
     height: 480px;
 }
-.messi-img{
+
+.messi-img {
     width: 100%;
     height: 230px;
     margin-bottom: 20px;
 }
-.mb-20{
+
+.mb-20 {
     margin-bottom: 20px;
 }
-.iphone-flex{
+
+.iphone-flex {
     display: block;
 }
-.footer{
-    background-color:#2e2e2e;
+
+.footer {
+    background-color: #2e2e2e;
     padding: 70px 0;
 }
-.footer-title{
+
+.footer-title {
     font-family: Helvetica;
     font-size: 20px;
     font-weight: normal;
@@ -179,13 +200,15 @@
     letter-spacing: normal;
     color: white;
 }
-.footer-divider{
-     width: 40px;
-     height: 4px;
-     background-color:white;
-     margin: 30px 0;
+
+.footer-divider {
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    margin: 30px 0;
 }
-.footer-text{
+
+.footer-text {
     font-family: Helvetica;
     font-size: 16px;
     font-weight: normal;
@@ -195,10 +218,12 @@
     letter-spacing: normal;
     color: white;
 }
-.m-26{
+
+.m-26 {
     margin: 26px 0;
 }
-.form-title{
+
+.form-title {
     font-family: Helvetica;
     font-size: 20px;
     font-weight: normal;
@@ -208,23 +233,25 @@
     letter-spacing: normal;
     color: white;
 }
-.input-text{
-     /* opacity: 0.6; */
-     font-family: Helvetica;
-     font-size: 14px;
-     font-weight: normal;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: normal;
-     letter-spacing: normal;
-     color: #2e2e2e;
-     background-color: white;
+
+.input-text {
+    /* opacity: 0.6; */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e2e;
+    background-color: white;
 }
-.submit-button{
+
+.submit-button {
     width: 245px;
     height: 40px;
     border-radius: 4px;
-    background-color:#43b5ff;
+    background-color: #43b5ff;
     font-family: Helvetica;
     font-size: 16px;
     font-weight: normal;
@@ -235,13 +262,16 @@
     text-align: center;
     color: black;
 }
-.custom-hr{
+
+.custom-hr {
     background-color: #f9f9f9;
 }
-.footer-img{
+
+.footer-img {
     margin: 30px 10px;
 }
-.copyright{
+
+.copyright {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: normal;
@@ -251,57 +281,71 @@
     letter-spacing: normal;
     color: white;
 }
+
 @media only screen and (max-width: 768px) {
-    .custom-row{
+    .custom-row {
         padding: 0px;
     }
-    .messi-div{
+
+    .messi-div {
         height: 240px;
     }
+
     .ironman-img {
         height: 500px;
     }
 }
+
 @media only screen and (max-width: 768px) and (min-width: 377px) {
-    .box-title{
+    .box-title {
         font-family: Roboto;
         font-size: 12px;
     }
-    .box-text{
+
+    .box-text {
         font-family: Roboto;
         font-size: 10px;
     }
-    .box-image{
-         width: 36px;
-         height: 36px;
+
+    .box-image {
+        width: 36px;
+        height: 36px;
     }
-    .box{
+
+    .box {
         height: 200px;
         padding: 16px;
     }
 }
+
 @media only screen and (max-width: 376px) {
     .messi-img {
         width: 100%;
         height: 156px;
         margin-bottom: 20px;
     }
+
     .messi-div {
         height: 156px;
     }
+
     .iphone-flex {
         display: flex;
     }
-    .messi-div img{
+
+    .messi-div img {
         width: 80px;
     }
+
     .mr-20px {
         margin-right: 20px;
     }
-    .background-text{
+
+    .background-text {
         font-size: 30px;
     }
-    .background-button{
+
+    .background-button {
         font-size: 20px;
         padding: 0 30px;
     }

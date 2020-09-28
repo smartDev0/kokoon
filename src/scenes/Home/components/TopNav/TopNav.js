@@ -15,7 +15,7 @@ class TopNav extends React.Component {
                         <Nav className="mr-auto">
                         </Nav>
                         <Form inline>
-                            <Link to="/" className="sign-in">Sign in</Link>
+                            <Link to="/auth/login" className="sign-in">Sign in</Link>
                             <Button className="sign-up">Sing up</Button>
                         </Form>
                     </Container>

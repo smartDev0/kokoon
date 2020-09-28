@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171" height="106" viewBox="0 0 171 106">
+    <defs>
+        <linearGradient id="jg6bh9u2da" x1="100%" x2="-36.748%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#43B5FF"/>
+            <stop offset="100%" stop-color="#39DFDB"/>
+        </linearGradient>
+        <linearGradient id="w1j7zsbc2b" x1="100%" x2="29.56%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#43B5FF"/>
+            <stop offset="100%" stop-color="#39DDDC"/>
+            <stop offset="100%" stop-color="#39DFDB"/>
+        </linearGradient>
+        <linearGradient id="6txz67nw5c" x1="144.755%" x2="60.741%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#43B5FF"/>
+            <stop offset="100%" stop-color="#39DDDC"/>
+            <stop offset="100%" stop-color="#39DFDB"/>
+        </linearGradient>
+        <linearGradient id="drywig12wd" x1="130.361%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#43B5FF"/>
+            <stop offset="100%" stop-color="#39DDDC"/>
+            <stop offset="100%" stop-color="#39DFDB"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g>
+                <path fill="url(#jg6bh9u2da)" d="M170.22 50.95c-.133-.159-.28-.306-.441-.439L121.396 1.245c-1.465-1.575-3.934-1.668-5.515-.208-.783.724-1.235 1.736-1.249 2.802v25.929h-62.69c-2.34 0-4.942.519-4.942 2.593v41.487c.31 2.63 2.322 4.743 4.943 5.186h62.69v23.336c.037 1.551.94 2.952 2.34 3.63h1.561c1.087-.043 2.114-.508 2.862-1.296l48.383-49.007c1.437-1.19 1.634-3.315.44-4.747z" transform="translate(-1145 -487) translate(1145 487)"/>
+                <path fill="url(#w1j7zsbc2b)" d="M35 28c-2.209 0-4 1.732-4 3.869V73.13C31 75.268 32.791 77 35 77s4-1.732 4-3.869V31.87C39 29.732 37.209 28 35 28z" transform="translate(-1145 -487) translate(1145 487)"/>
+                <path fill="url(#6txz67nw5c)" d="M19 28c-2.209 0-4 1.732-4 3.869V73.13C15 75.268 16.791 77 19 77s4-1.732 4-3.869V31.87C23 29.732 21.209 28 19 28z" transform="translate(-1145 -487) translate(1145 487)"/>
+                <path fill="url(#drywig12wd)" d="M4 28c-2.209 0-4 1.732-4 3.869V73.13C0 75.268 1.791 77 4 77s4-1.732 4-3.869V31.87C8 29.732 6.209 28 4 28z" transform="translate(-1145 -487) translate(1145 487)"/>
+            </g>
+        </g>
+    </g>
+</svg>

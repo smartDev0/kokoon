@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.auth-container{
+  height: 100vh;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}

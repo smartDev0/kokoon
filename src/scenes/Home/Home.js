@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 /** Import components */
 import TopNav from './components/TopNav/TopNav';
 import Landing from './scenes/Landing/Landing';
