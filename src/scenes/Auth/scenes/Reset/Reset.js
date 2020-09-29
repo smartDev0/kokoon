@@ -50,7 +50,7 @@ class Reset extends React.Component {
                             </div>
                             <br />
                             <br></br>
-                            <Button className="auth-button" onClick={() => this.props.history.push('/auth/signin')}>Sign In</Button>
+                            <Button className="auth-button" onClick={() => this.props.history.push('/workspace')}>Sign In</Button>
                         </form>
                     ) : (
                         <form className="w-100" onSubmit={this.Submit}>

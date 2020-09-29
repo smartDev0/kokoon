@@ -5,6 +5,12 @@
     height: 80px;
     background-image: linear-gradient(to bottom, #1c1c1c, rgba(0, 0, 0, 0));
 }
+.auth-top-nav {
+    background-color: #2e2e2e !important;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom, #1c1c1c, rgba(0, 0, 0, 0));
+}
 .navbar-logo-text{
     font-family: Helvetica;
     font-size: 20px;
@@ -50,7 +56,36 @@
     text-align: center;
     color: #000000;
 }
-
+.auth-user{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: white;
+}
+.auth-user .dropdown-toggle {
+      color: white;
+}
+.auth-user .dropdown-menu{
+    right: 0px;
+    left: auto;
+}
+.auth-user .dropdown-menu a {
+     font-family: Helvetica;
+     font-size: 14px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.71;
+     letter-spacing: normal;
+}
+.auth-user div {
+    color: black;
+}
 @media only screen and (max-width: 376px) {
     .sign-in {
         margin-right: 15px;

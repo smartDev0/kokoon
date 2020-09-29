@@ -36,6 +36,7 @@ class Login extends React.Component {
                 errorPassword:'',
                 flag: true
             });
+            this.props.history.push('/workspace');
         }
     }
     render() {

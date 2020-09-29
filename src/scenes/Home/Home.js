@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 /** Import components */
 import TopNav from './components/TopNav/TopNav';
 import Landing from './scenes/Landing/Landing';
@@ -9,13 +9,22 @@ class Home extends React.Component {
     componentDidMount() {
     }
     render() {
+        if (this.props.location.pathname == '/') {
+            return (
+                <Redirect
+                    to={{
+                        pathname: '/landing'
+                    }}
+                />
+            );
+        }
         return (
             <div id="home" className="home-container">
                 <TopNav {...this.props} />
                 <div>
                     <Switch>
-                        <Route path="/workspace" render={props => <Workspace {...props} />} />
-                        <Route path="/" render={props => <Landing {...props} />} />
+                        <Route path="/workspace" exact render={props => <Workspace {...props} />} />
+                        <Route path="/landing" render={props => <Landing {...props} />} />
                     </Switch>
                 </div>
             </div>

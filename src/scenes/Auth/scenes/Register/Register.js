@@ -51,6 +51,7 @@ class Register extends React.Component {
                 errorCpassword: '',
                 flag: true
             });
+            this.props.history.push('/workspace');
         }
     }
     render() {
