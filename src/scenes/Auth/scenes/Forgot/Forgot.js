@@ -64,7 +64,7 @@ class Forgot extends React.Component {
                         <br />
                         <br />
                         <div className="auth-text">
-                            Enter your email address. Then we will send you a reset link that helps resetting your password :)
+                            {'Enter your email address. Then we will send you a reset link that helps resetting your password :)'}
                         </div>
                         <br />
                         <div className="form-group">

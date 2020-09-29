@@ -46,7 +46,7 @@ class Reset extends React.Component {
                             <br />
                             <br />
                             <div className="auth-text">
-                                Congratulations! Now you have a new password for kokoon.cloud! Sign in now and have a great experience for managing your videos :)
+                                {'Congratulations! Now you have a new password for kokoon.cloud! Sign in now and have a great experience for managing your videos :)'}
                             </div>
                             <br />
                             <br></br>
