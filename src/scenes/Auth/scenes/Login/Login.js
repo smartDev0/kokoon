@@ -22,7 +22,7 @@ class Login extends React.Component {
                             <input className="form-control auth-input-text" placeholder="***********" type="password"></input>
                         </div>
                         <div className="form-group text-right">
-                            <Link to="/" className="forgot-label">Forgot Password</Link>
+                            <Link to="/auth/forgot" className="forgot-label">Forgot Password</Link>
                         </div>
                         <br></br>
                         <Button className="auth-button">Sign In</Button>

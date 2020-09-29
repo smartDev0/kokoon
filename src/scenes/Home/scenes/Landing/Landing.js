@@ -21,7 +21,7 @@ class Landing extends React.Component {
                         <br />
                         <br />
                         <div className="text-center">
-                            <Button className="background-button">
+                            <Button className="background-button" onClick={()=>this.props.history.push('/auth/signup')}>
                                 Sign up for free trail!
                             </Button>
                         </div>

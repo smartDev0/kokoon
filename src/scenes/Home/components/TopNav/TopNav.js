@@ -16,7 +16,7 @@ class TopNav extends React.Component {
                         </Nav>
                         <Form inline>
                             <Link to="/auth/signin" className="sign-in">Sign in</Link>
-                            <Button className="sign-up">Sing up</Button>
+                            <Button className="sign-up" onClick={() => this.props.history.push('/auth/signup')}>Sing up</Button>
                         </Form>
                     </Container>
                 </Navbar>

@@ -6,10 +6,12 @@ import Landing from './scenes/Landing/Landing';
 import Workspace from './scenes/Workspace/Workspace';
 
 class Home extends React.Component {
+    componentDidMount() {
+    }
     render() {
         return (
             <div id="home" className="home-container">
-                <TopNav />
+                <TopNav {...this.props} />
                 <div>
                     <Switch>
                         <Route path="/workspace" render={props => <Workspace {...props} />} />
