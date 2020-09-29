@@ -38,7 +38,7 @@ class Forgot extends React.Component {
         });
     }
 
-    contactSubmit(e) {
+    Submit(e) {
         e.preventDefault();
         this.setState({submitted:true})
         if (this.validateEmail(this.state.email)) {
@@ -57,7 +57,7 @@ class Forgot extends React.Component {
         return (
             <div className="d-flex">
                 <div className="auth-main">
-                    <form className="w-100" onSubmit={this.contactSubmit.bind(this)}>
+                    <form className="w-100" onSubmit={this.Submit.bind(this)}>
                         <div className="auth-title">
                             Forgot password
                         </div>
