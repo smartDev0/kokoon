@@ -28,7 +28,7 @@ class Login extends React.Component {
                         <Button className="auth-button">Sign In</Button>
                         <br/>
                         <div className="text-center forgot-label mt-20">
-                            Don't have an account? <Link to="/" className="forgot-label acitve-text">Sign up here</Link>
+                            Don't have an account? <Link to="/auth/signup" className="forgot-label acitve-text">Sign Up here</Link>
                         </div>
                     </form>
                 </div>
