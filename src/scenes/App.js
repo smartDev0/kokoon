@@ -13,7 +13,7 @@ class App extends React.Component {
         return (
             <Router >
                 <Switch>
-                    <Route path="/auth" exact render={props => <Auth {...props} />} />
+                    <Route path="/auth" render={props => <Auth {...props} />} />
                     {/* <Route path="/404" exact render={props => <Page404 {...props} />} /> */}
                     <Route path="/"  render={props => <Home {...props} />} />
                     {/* <Redirect to="/404" /> */}

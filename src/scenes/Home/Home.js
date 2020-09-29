@@ -24,7 +24,7 @@ class Home extends React.Component {
                 <div>
                     <Switch>
                         <Route path="/workspace" exact render={props => <Workspace {...props} />} />
-                        <Route path="/landing" render={props => <Landing {...props} />} />
+                        <Route path="/landing" exact render={props => <Landing {...props} />} />
                     </Switch>
                 </div>
             </div>

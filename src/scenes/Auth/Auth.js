@@ -21,7 +21,7 @@ class Auth extends React.Component {
             <div className="auth-container">
                 <div>
                     <Switch>
-                        <Route path="/auth/signin" component={Login} />
+                        <Route path="/auth/signin" exact component={Login} />
                         <Route path="/auth/signup" exact component={Register} />
                         <Route path="/auth/reset" exact component={Reset} />
                         <Route path="/auth/forgot" exact component={Forgot} />

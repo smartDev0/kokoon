@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Button, Nav, Form, NavDropdown } from 'react-bootstrap';
-
+import { FaRegUserCircle } from 'react-icons/fa';
 import './topNav.css';
 class TopNav extends React.Component {
     state = {
         auth:false
     }
     componentDidMount() {
-        console.log(this.props);
         if (this.props.location.pathname === '/landing') {
             this.setState({ auth: false });
         } else {
@@ -29,6 +28,10 @@ class TopNav extends React.Component {
                             </Nav>
                             <Form inline>
                                 <NavDropdown title="John Doe (jdoe@blue-dot.io)" className="auth-user" id="collasible-nav-dropdown" >
+                                    <NavDropdown.Item onClick={() => this.props.history.push('/')}><i className="fa fa-power-off" aria-hidden="true"></i> Sign Out</NavDropdown.Item>
+                                </NavDropdown>
+                                <FaRegUserCircle className="auth-user-res"/>
+                                <NavDropdown title={''} className="auth-user-res" id="collasible-nav-dropdown" >
                                     <NavDropdown.Item onClick={() => this.props.history.push('/')}><i className="fa fa-power-off" aria-hidden="true"></i> Sign Out</NavDropdown.Item>
                                 </NavDropdown>
                             </Form>
